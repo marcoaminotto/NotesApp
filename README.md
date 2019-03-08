@@ -8,15 +8,15 @@
  
 - Add notes 
   ```shell
-      foo@bar:~$ node app.js add --title="Name of the Title" --body="Content of he body"
+      foo@bar:~$ node app.js add --title="Title" --body="Content"
   ```
 - Read a note
   ```shell
-      foo@bar:~$ node app.js read --title="Name of the Title"
+      foo@bar:~$ node app.js read --title="Title"
   ```
 - Remove a note
   ```shell
-      foo@bar:~$ node app.js remove --title="Name of the Title"
+      foo@bar:~$ node app.js remove --title="Title"
   ```
 - List notes
   ```shell
